@@ -19,12 +19,14 @@
     "storybook:build": "build-storybook"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.4",
+    "@emotion/react": "^11.11.1",
     "@emotion/server": "^11.10.0",
     "@mantine/carousel": "6.0.2",
-    "@mantine/core": "6.0.2",
+    "@mantine/core": "^6.0.2",
     "@mantine/dates": "6.0.2",
-    "@mantine/hooks": "6.0.2",
+    "@mantine/form": "^6.0.20",
+    "@mantine/hooks": "^6.0.2",
+    "@mantine/modals": "^6.0.20",
     "@mantine/next": "6.0.2",
     "@mantine/notifications": "6.0.2",
     "@mantine/prism": "6.0.2",
@@ -34,6 +36,7 @@
     "cookies-next": "^2.1.1",
     "dayjs": "^1.11.6",
     "embla-carousel-react": "^7.0.3",
+    "mantine-datatable": "^2.9.13",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -41,7 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@next/eslint-plugin-next": "^12.1.4",
-    "@storybook/react": "^6.5.13",
+    "@storybook/react": "^7.4.0",
     "@testing-library/dom": "^8.12.0",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^13.0.0",
